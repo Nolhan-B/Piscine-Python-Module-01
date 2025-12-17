@@ -18,7 +18,7 @@ def ft_plant_factory():
     for data in plant_data:
         new_plant = Plant(data[0], data[1], data[2])
         plant_repository.append(new_plant)
-    
+
     print("=== Plant Factory Output ===")
     i = 0
     for e in plant_repository:
