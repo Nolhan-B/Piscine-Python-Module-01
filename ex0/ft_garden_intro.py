@@ -1,4 +1,6 @@
-def ft_garden_intro():
+def ft_garden_intro() -> None:
+    """Affiche une introduction simple décrivant une plante dans un jardin."""
+
     plant = "Rose"
     height = 25
     age = 30

@@ -1,11 +1,17 @@
-def ft_garden_data():
+def ft_garden_data() -> None:
+    """Gère et affiche les données des plantes du jardin."""
+
     class Plant:
-        def __init__(self, name, height, age):
+        """Représente une plante du jardin."""
+
+        def __init__(self, name, height, age) -> None:
+            """Initialise une plante avec un nom, une taille et un âge."""
             self.name = name
             self.height = height
             self.age = age
 
-        def present(self):
+        def present(self) -> None:
+            """Affiche les informations de la plante."""
             print(f"{self.name}: {self.height}cm, {self.age} years old")
 
     print("=== Garden Plant Registry ===")
@@ -20,6 +26,7 @@ def ft_garden_data():
 
 
 def main():
+    """Point d'entrée du programme."""
     ft_garden_data()
 
 
