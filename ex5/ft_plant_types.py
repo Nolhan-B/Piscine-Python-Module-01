@@ -101,30 +101,25 @@ def ft_plant_types() -> None:
     tomato.get_info()
     tomato.get_nutritional()
 
-    # print()
+    print()
 
-    # tulip = Flower("Tulip", 35, 45, "yellow")
-    # tulip.get_info()
-    # tulip.bloom()
+    tulip = Flower("Tulip", 35, 45, "yellow")
+    tulip.get_info()
+    tulip.bloom()
 
-    # print()
+    print()
 
-    # pine = Tree("Pine", 800, 3650, 60)
-    # pine.get_info()
-    # pine.produce_shade()
+    pine = Tree("Pine", 800, 3650, 60)
+    pine.get_info()
+    pine.produce_shade()
 
-    # print()
+    print()
 
-    # tomato = Vegetable("Tomato", 80, 90, "summer", "vitamin c")
-    # tomato.get_info()
-    # tomato.get_nutritional()
+    tomato = Vegetable("Tomato", 80, 90, "summer", "vitamin c")
+    tomato.get_info()
+    tomato.get_nutritional()
 
-    # print()
-
-    # carrot = Vegetable("Carrot", 40, 75, "autumn", "beta-carotene")
-    # carrot.get_info()
-    # carrot.get_nutritional()
-##########
+    print()
 
 
 def main():
