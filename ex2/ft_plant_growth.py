@@ -31,6 +31,7 @@ class Plant:
             if self.grow_sc > 0:
                 print(f"Growth this week: +{self.grow_sc}cm")
 
+
 def ft_plant_growth():
     """Simule la croissance des plantes sur une semaine."""
 
